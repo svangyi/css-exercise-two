@@ -1,6 +1,6 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffecef;
+  color: #000;
 }
 
 nav {
@@ -8,6 +8,45 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+/**** here's where I set the font size ****/
+.small {
+  font-size: small;
+}
+.larger {
+  font-size: larger;
+}
+.point {
+  font-size: 24pt;
+}
+.percent {
+  font-size: 200%;
+}
+/**** here's where I set the font size and line height base on importance****/
+h1 {
+  font-size: 50px;
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -49,4 +88,21 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+/**** interactive link style ****/
+a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: purple;
 }
